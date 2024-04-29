@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+// @forward '@digital-party/cupcake';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Le Jour Script';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Le Jour Script'), url('./assets/LeJourScript-Eaqpg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Le Jour Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Le Jour Serif'), url('./assets/LeJourSerif-OVZMo.woff') format('woff');
+}
+
+@mixin le-jour-regular-script() {
+  font-family: 'Le Jour Script';
+}
+
+@mixin le-jour-regular-serif() {
+  font-family:'Le Jour Serif';
+}
