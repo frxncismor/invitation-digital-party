@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
-    "@digital-party/cupcake": "^0.0.14-alpha",
+    "@digital-party/cupcake": "^0.0.15-alpha",
     "@supabase/supabase-js": "^2.42.5",
     "@tailwindcss/typography": "^0.5.13",
     "daisyui": "^4.10.2",
