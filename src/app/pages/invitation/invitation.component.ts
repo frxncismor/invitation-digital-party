@@ -18,16 +18,27 @@ export class InvitationComponent implements OnInit {
   invitation: Invitation = {
     theme: xvThemes.XV1,
     celebrated: {
-      name: 'Leia',
-      eventDate: DateTime.fromISO("2024-06-25"),
-      heroBgImg: 'https://images.pexels.com/photos/19773319/pexels-photo-19773319/free-photo-of-moda-amor-gente-mujer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      invitationBgImg: 'https://adagbrjzndukouwqcknu.supabase.co/storage/v1/object/public/design_images/xv1/pexels-evie-shaffer-2512280.jpg'
+      name: 'Dana',
+      eventDate: DateTime.fromISO("2024-05-31"),
+      heroBgImg: 'https://images.pexels.com/photos/19726278/pexels-photo-19726278/free-photo-of-mujer-modelo-maqueta-ramo-de-flores.jpeg',
+      invitationBgImg: 'https://adagbrjzndukouwqcknu.supabase.co/storage/v1/object/public/design_images/xv2/pexels-evie-shaffer-2395249.jpg'
     },
     guest: {
       tickets: 0,
       message: '',
       full_name: '',
       will_assist: null
+    },
+    event: {
+      location: {
+        url: 'https://maps.app.goo.gl/shYHz6kActShMXd58',
+        placeName : '"El portón de Santa Fé"',
+        address: {
+          street: 'Avenida Santa Fé 147.',
+          indications: 'Entre la Universidad Santa Fe y la caseta de cobro Cervera.',
+          city: 'Guanajuato, Guanajuato.'
+        }
+      }
     }
   }
 

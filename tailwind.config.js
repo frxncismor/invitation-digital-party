@@ -59,7 +59,45 @@ module.exports = {
           "warning": "#FA8072",
           "error": "#CD5C5C"
         },
-      }
+        "cupcake-mod": {
+          ...require("daisyui/src/theming/themes")["cupcake"],
+          primary: "#FFB6C1",
+          secondary: "#FFFFFF",
+          accent: "#FF69B4"
+        }
+      },
+      "light",
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset",
     ]
   }
 }
