@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SupabaseService } from '../../services/supabase.service';
-import { Invitation, xvThemes, LayoutComponent, HeroComponent, InvitationComponent as CupcakeInvitationComponent, ItineraryComponent, ItineraryEventLocationComponent, FooterComponent} from '@digital-party/cupcake';
+import { Invitation, xvThemes, LayoutComponent, HeroComponent, InvitationComponent as CupcakeInvitationComponent, ItineraryComponent, ItineraryEventLocationComponent, FooterComponent, LogoComponent} from '@digital-party/cupcake';
 import { DateTime } from 'luxon';
 
 @Component({
   selector: 'app-invitation',
   standalone: true,
-  imports: [LayoutComponent, HeroComponent, CupcakeInvitationComponent, ItineraryEventLocationComponent, FooterComponent ],
+  imports: [LayoutComponent, HeroComponent, CupcakeInvitationComponent, ItineraryEventLocationComponent, LogoComponent ],
   templateUrl: './invitation.component.html',
   styleUrl: './invitation.component.scss'
 })
