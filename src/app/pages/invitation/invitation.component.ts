@@ -19,7 +19,7 @@ export class InvitationComponent implements OnInit {
     theme: xvThemes.XV1,
     celebrated: {
       name: 'Dana',
-      eventDate: DateTime.fromISO("2024-05-31T17:00:00"),
+      eventDate: DateTime.fromISO("2025-05-31T17:00:00"),
       heroBgImg: 'https://images.pexels.com/photos/19726278/pexels-photo-19726278/free-photo-of-mujer-modelo-maqueta-ramo-de-flores.jpeg',
       invitationBgImg: 'https://adagbrjzndukouwqcknu.supabase.co/storage/v1/object/public/design_images/xv2/pexels-evie-shaffer-2395249.jpg'
     },
